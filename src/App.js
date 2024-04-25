@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
-import Login from './components/login';
+import LoginForm from './components/LoginForm';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
       </header>
       <div id='middle-container'>
           <Routes>
-            <Route path='/' element={<Login/>}/>
+            <Route path='/' element={<LoginForm/>}/>  
           </Routes>
       </div>
       <footer>
